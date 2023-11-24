@@ -2,10 +2,11 @@ export const stepData = {
   1: {
     stepName: "YOUR INFO",
     title: "Personal Info",
-    subtitle: "Please provide your name, email address and phone number",
+    subtitle: "Please provide your name, email address and phone number.",
     content: [
       {
         title: "Name",
+        key: "name",
         type: "input",
         placeholder: "e.g. Stephen King",
         validation: "",
@@ -13,6 +14,7 @@ export const stepData = {
       },
       {
         title: "Email Address",
+        key: "email",
         type: "input",
         placeholder: "e.g. stephenking@lorem.com",
         validation: "",
@@ -20,6 +22,7 @@ export const stepData = {
       },
       {
         title: "Phone Number",
+        key: "phoneNumber",
         type: "input",
         placeholder: "e.g. +1 234 567 890",
         validation: "",
@@ -37,21 +40,21 @@ export const stepData = {
         type: "product",
         price_monthly: 9,
         price_yearly: 90,
-        icon: "",
+        icon: "assets/images/icon-arcade.svg",
       },
       {
         title: "Advanced",
         type: "product",
         price_monthly: 12,
         price_yearly: 120,
-        icon: "",
+        icon: "assets/images/icon-advanced.svg",
       },
       {
         title: "Pro",
         type: "product",
         price_monthly: 15,
         price_yearly: 150,
-        icon: "",
+        icon: "assets/images/icon-pro.svg",
       },
       {
         type: "switch",
@@ -65,21 +68,21 @@ export const stepData = {
     content: [
       {
         title: "Online service",
-        type: "add-on",
+        type: "addon",
         subtitle: "Access to multiplayer games",
         price_monthly: 1,
         price_yearly: 10,
       },
       {
         title: "Larger Storage",
-        type: "add-on",
+        type: "addon",
         subtitle: "Extra 1TB of cloud drive",
         price_monthly: 2,
         price_yearly: 20,
       },
       {
         title: "Customizable profile",
-        type: "add-on",
+        type: "addon",
         subtitle: "Custom theme on your profile",
         price_monthly: 2,
         price_yearly: 20,
